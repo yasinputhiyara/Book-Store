@@ -1,0 +1,23 @@
+
+<section>
+<div class="container login-container">
+    <div class="row justify-content-center">
+        <div class="col-md-6 col-sm-8 col-10">
+            <form action="superAdmin/login" method="post">
+                <h2 class="text-center mb-4">Login</h2>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" class="form-control" id="password" name="password" required>
+                </div>
+                {{!-- <button type="button" class="btn btn-primary btn-block" onclick="validateLogin()">Login</button> --}}
+                <button type="submit" class="btn btn-primary">Login</button>
+
+            </form>
+        </div>
+    </div>
+</div>
+</section>

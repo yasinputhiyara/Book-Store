@@ -1,0 +1,31 @@
+<header>
+    {{>superAdmin-header}}
+</header>
+<section>
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6 col-sm-8 col-10">
+            <form>
+                <h2 class="text-center mb-4">Add admin</h2>
+
+                <div class="form-group">
+                    <label for="adminName">Admin Name:</label>
+                    <input type="text" class="form-control" id="adminName" name="adminName" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" class="form-control" id="password" name="password" required>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-block">Add</button>
+            </form>
+        </div>
+    </div>
+</div>
+</section>
